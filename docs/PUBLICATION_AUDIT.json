@@ -21,5 +21,7 @@
       "removed_from_git_checkout": true
     }
   ],
-  "note": "The two embedded APK tool assets are byte-identical to the public upstream assets, verified against GitHub's pinned source contents API. They are not the private Movness release signing key. The already-signed r50 APK and original full source archive are preserved byte-for-byte. The two source asset files are excluded from the Git checkout."
+  "note": "The two embedded APK tool assets are byte-identical to the public upstream assets, verified against GitHub's pinned source contents API. They are not the private Movness release signing key. The already-signed r50 APK and original full source archive are preserved byte-for-byte. The two source asset files are excluded from the Git checkout.",
+  "source_archive_entries_scanned": 11631,
+  "source_archive_key_entries": "Only the two byte-identical public upstream tool assets listed above."
 }
