@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "credential_files_in_public_git_checkout": [],
+  "credential_files_tracked_in_git": [],
+  "private_application_signing_key_included": false,
+  "known_upstream_assets": [
+    {
+      "path": "app/src/main/assets/pkcs12.keystore",
+      "public_upstream_url": "https://github.com/AAswordman/Operit/blob/783ee301da88eaf197fb9f05ed3b70a607bf7408/app/src/main/assets/pkcs12.keystore",
+      "local_and_public_git_blob": "6477818568bf5171de49769a612b22b65507870f",
+      "apk_asset_identical_to_public_upstream": true,
+      "sha256": "e7d3c18768681da94b878f427bb429aec6d8d147e998270f5388702880536cea",
+      "removed_from_git_checkout": true
+    },
+    {
+      "path": "app/src/main/assets/jks.jks",
+      "public_upstream_url": "https://github.com/AAswordman/Operit/blob/783ee301da88eaf197fb9f05ed3b70a607bf7408/app/src/main/assets/jks.jks",
+      "local_and_public_git_blob": "dbbc493bde7a347d52b4eda94499093735bfee3d",
+      "apk_asset_identical_to_public_upstream": true,
+      "sha256": "b152b228ca8eddf1f78fe7fbc2fa6fa53204007def49dee1ca8ee000a4458711",
+      "removed_from_git_checkout": true
+    }
+  ],
+  "note": "The two embedded APK tool assets are byte-identical to the public upstream assets, verified against GitHub's pinned source contents API. They are not the private Movness release signing key. The already-signed r50 APK and original full source archive are preserved byte-for-byte. The two source asset files are excluded from the Git checkout."
+}
