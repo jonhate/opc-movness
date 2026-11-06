@@ -1,0 +1,33 @@
+{
+  "view_model_methods": [
+    "isConfigured()Lkotlinx/coroutines/flow/StateFlow;",
+    "isApiConfigInitialized()Lkotlinx/coroutines/flow/StateFlow;",
+    "getApiKey()Lkotlinx/coroutines/flow/StateFlow;",
+    "getApiEndpoint()Lkotlinx/coroutines/flow/StateFlow;",
+    "getModelName()Lkotlinx/coroutines/flow/StateFlow;",
+    "getApiProviderType()Lkotlinx/coroutines/flow/StateFlow;",
+    "getActiveChatConfigId()Lkotlinx/coroutines/flow/StateFlow;",
+    "getActiveChatModelConfig()Lkotlinx/coroutines/flow/StateFlow;",
+    "getChatHistory()Lkotlinx/coroutines/flow/StateFlow;",
+    "getChatHistories()Lkotlinx/coroutines/flow/StateFlow;",
+    "getCurrentChatId()Lkotlinx/coroutines/flow/StateFlow;",
+    "getCurrentChatIsLoading()Lkotlinx/coroutines/flow/StateFlow;",
+    "getErrorMessage()Lkotlinx/coroutines/flow/StateFlow;",
+    "getUserMessage()Lkotlinx/coroutines/flow/StateFlow;",
+    "getAttachments()Lkotlinx/coroutines/flow/StateFlow;",
+    "createNewChat(Ljava/lang/String;Ljava/lang/String;)V",
+    "switchChat(Ljava/lang/String;)V",
+    "cancelMessage(Ljava/lang/String;)V",
+    "sendTextMessage(Ljava/lang/String;Ljava/lang/String;Lcom/ai/assistance/operit/data/model/PromptFunctionType;)V",
+    "updateUserMessage(Landroidx/compose/ui/text/input/TextFieldValue;)V",
+    "handleSharedText(Ljava/lang/String;Ljava/lang/String;)V",
+    "handleSharedFiles(Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V"
+  ],
+  "configuration_methods": [
+    "<init>(Landroid/content/Context;Landroidx/datastore/core/DataStore;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+    "updateModelConfig(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+    "updateModelConfig(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/ai/assistance/operit/data/model/ApiProviderType;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;",
+    "updateSingleApiKey(Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;"
+  ],
+  "verified": true
+}

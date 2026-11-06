@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["task_id", "status", "base_commit", "result_commit", "changed_files", "checks", "artifacts", "blocker", "next_task"],
+  "properties": {
+    "task_id": {"type": "string"},
+    "status": {"type": "string", "enum": ["verified", "implemented_unverified", "blocked", "failed"]},
+    "base_commit": {"type": "string"},
+    "result_commit": {"type": "string"},
+    "changed_files": {"type": "array", "items": {"type": "string"}},
+    "checks": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["command", "exit_code", "log"], "properties": {"command": {"type": "string"}, "exit_code": {"type": "integer"}, "log": {"type": "string"}}}},
+    "artifacts": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}}},
+    "blocker": {"type": "string"},
+    "next_task": {"type": "string"}
+  }
+}

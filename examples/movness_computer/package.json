@@ -1,0 +1,25 @@
+{
+  "name": "@movness/computer-toolpkg",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "license": "LGPL-3.0-only",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@copylee/dsh-remote-control": "0.2.9",
+    "@deepseek-ai/dsh": "0.2.2-rc.1",
+    "@types/node": "24.0.0",
+    "@types/ws": "8.18.1",
+    "esbuild": "0.28.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "ws": "8.18.3"
+  }
+}

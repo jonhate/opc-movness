@@ -1,0 +1,236 @@
+{
+  "changed": [
+    "AndroidManifest.xml",
+    "META-INF/ANDROIDD.RSA",
+    "META-INF/ANDROIDD.SF",
+    "META-INF/MANIFEST.MF",
+    "resources.arsc"
+  ],
+  "added": [
+    "assets/movness-notices.txt",
+    "assets/packages/movness_phone_bundle.toolpkg",
+    "classes45.dex",
+    "res/xml/movness_learning_accessibility.xml"
+  ],
+  "removed": [],
+  "old_classes": 124048,
+  "new_classes": 124362,
+  "preserved_native_models_bundle": [
+    {
+      "path": "assets/models/sherpa-ncnn-streaming-zipformer-bilingual-zh-en-2023-02-13/decoder_jit_trace-pnnx.ncnn.bin",
+      "sha256": "dc4df2d8e1ddee1b90ac72a2de982eb1d320ee6c9a70e1dee4d23d9acfc8b978"
+    },
+    {
+      "path": "assets/models/sherpa-ncnn-streaming-zipformer-bilingual-zh-en-2023-02-13/decoder_jit_trace-pnnx.ncnn.param",
+      "sha256": "cb88f5894978fd3e85369d2f8ea55621809fceb2b5158243fb0cd025eb4f1aaf"
+    },
+    {
+      "path": "assets/models/sherpa-ncnn-streaming-zipformer-bilingual-zh-en-2023-02-13/encoder_jit_trace-pnnx.ncnn.bin",
+      "sha256": "4ed65f05b78c0106d3d176018ab01e26a15c200604490d3d49b08cc75a122dd0"
+    },
+    {
+      "path": "assets/models/sherpa-ncnn-streaming-zipformer-bilingual-zh-en-2023-02-13/encoder_jit_trace-pnnx.ncnn.param",
+      "sha256": "97ad0954fb2cb4730f87a7eb66401b024f756752ece246e4b2063f870ebf3e18"
+    },
+    {
+      "path": "assets/models/sherpa-ncnn-streaming-zipformer-bilingual-zh-en-2023-02-13/joiner_jit_trace-pnnx.ncnn.bin",
+      "sha256": "0e6c4370017394de5d74128756233d2e4451209e63ac2abd525da3b089e8bee1"
+    },
+    {
+      "path": "assets/models/sherpa-ncnn-streaming-zipformer-bilingual-zh-en-2023-02-13/joiner_jit_trace-pnnx.ncnn.param",
+      "sha256": "46c339f3869136c2f6d9d9d6983a6cbc2bfbcd0e3dab0f76ae25e9477f00a360"
+    },
+    {
+      "path": "assets/models/sherpa-ncnn-streaming-zipformer-bilingual-zh-en-2023-02-13/tokens.txt",
+      "sha256": "a8e0e4ec53810e433789b54a5c0134a7eaa2ffca595a6334d54c00da858841d3"
+    },
+    {
+      "path": "assets/models/silero_vad.onnx",
+      "sha256": "7ed98ddbad84ccac4cd0aeb3099049280713df825c610a8ed34543318f1b2c49"
+    },
+    {
+      "path": "assets/packages/movness_computer_bundle.toolpkg",
+      "sha256": "5927121156dde2308082a69511e579a4b89662354a65a6a853e0b357ffdf2b55"
+    },
+    {
+      "path": "lib/arm64-v8a/libFbxWrapper.so",
+      "sha256": "7fd7e9daf0d6233506adef57dc2f33cf4727f03aaa944a9da536893267fe531e"
+    },
+    {
+      "path": "lib/arm64-v8a/libLlamaWrapper.so",
+      "sha256": "59830befcbaaf9cda5dc24697f832e748a1e4d19a5ec82924868b8e685fd85af"
+    },
+    {
+      "path": "lib/arm64-v8a/libMNN.so",
+      "sha256": "5e8bff0e77547f5ca95ec0dab473dafd6ea037d933d9d355cc46f878a66a1848"
+    },
+    {
+      "path": "lib/arm64-v8a/libMNNWrapper.so",
+      "sha256": "948be52a7e9236d35f4ca7c39967080c51c3c95c9c5e0a9c49c756a4615b42dd"
+    },
+    {
+      "path": "lib/arm64-v8a/libMmdWrapper.so",
+      "sha256": "ffcf3b53229780ffcbcd175078372dca63bb8402b47e5b7243bf793ef9746b0c"
+    },
+    {
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6"
+    },
+    {
+      "path": "lib/arm64-v8a/libavcodec.so",
+      "sha256": "7522b33afd9015b2e70e63481980383863ac3aa4413828af812e63d58085256a"
+    },
+    {
+      "path": "lib/arm64-v8a/libavdevice.so",
+      "sha256": "96098f434e6a353efb848c8b6a08e4e7bc377921548ea91ba8261430d55e4400"
+    },
+    {
+      "path": "lib/arm64-v8a/libavfilter.so",
+      "sha256": "32f7943aa79f8401301a07037ef5e3cc2194adf1a5e4514e70dfd0a65e3c43aa"
+    },
+    {
+      "path": "lib/arm64-v8a/libavformat.so",
+      "sha256": "f43a74f0e201433ada3f3a07cd3fb2d1dee9011061aa9df7b2661d4bfb0c238a"
+    },
+    {
+      "path": "lib/arm64-v8a/libavutil.so",
+      "sha256": "acd35a3212d9e80bb79450e61af130c56d9dd20c55d039002ad1f40d71dce84b"
+    },
+    {
+      "path": "lib/arm64-v8a/libbash.so",
+      "sha256": "6fdd98014bfbeaf3084f1b56d878f7e13b943ab19c02bd00bf901384a2d24f9f"
+    },
+    {
+      "path": "lib/arm64-v8a/libbusybox.so",
+      "sha256": "68ce6e0c640fceba26b834c454aab18a15911e007002485aa25f77387463b82e"
+    },
+    {
+      "path": "lib/arm64-v8a/libc++_shared.so",
+      "sha256": "3e6d529147ffd66bd31fab85c8902b526abd1c06e43554ce64b97519e255e4b3"
+    },
+    {
+      "path": "lib/arm64-v8a/libdragonbones_native.so",
+      "sha256": "a46af615f961182ba28af9190f4a2d351d319caeed9264527a95c8b6f314e075"
+    },
+    {
+      "path": "lib/arm64-v8a/libffmpegkit.so",
+      "sha256": "587eeecea861a96e62d70fca966fdd578ebce96b7311f4c55a7363aebe991648"
+    },
+    {
+      "path": "lib/arm64-v8a/libffmpegkit_abidetect.so",
+      "sha256": "7bb99b793ab657de12a313ef670f7f1dbaa3b29317feff565b26c6596b6b8080"
+    },
+    {
+      "path": "lib/arm64-v8a/libfilament-jni.so",
+      "sha256": "086f80fce710e5811297e1446cef1712a6feaab71c7aab42ebdf45c501ce9b17"
+    },
+    {
+      "path": "lib/arm64-v8a/libfilament-utils-jni.so",
+      "sha256": "05461f603ae98a5b81525a26829599897a877cd305611f604d261786e1355232"
+    },
+    {
+      "path": "lib/arm64-v8a/libggml-base.so",
+      "sha256": "36205ea03ff33936c8a604265cb44145d8931501a74f1394fed2bff072aabd81"
+    },
+    {
+      "path": "lib/arm64-v8a/libggml-cpu.so",
+      "sha256": "6467b7d1159209c92a1e919e8d37f7bc2108c3b8cab9ecfd8ccb18cebf51dea2"
+    },
+    {
+      "path": "lib/arm64-v8a/libggml.so",
+      "sha256": "89591386d3a5030b185b6f788a4d15f0f90bc37dfe5969031b97ea9d7409a7ec"
+    },
+    {
+      "path": "lib/arm64-v8a/libgltfio-jni.so",
+      "sha256": "abb56a16ecf009cdd1de8285602d602f0aaabd487d292c0ceb278c82946c28a8"
+    },
+    {
+      "path": "lib/arm64-v8a/libllama-common.so",
+      "sha256": "65379f461938602c53deeab6014f54b085f53837a7b058294ef03fb1df43a529"
+    },
+    {
+      "path": "lib/arm64-v8a/libllama.so",
+      "sha256": "10b78dd899d4c6a320ecdb6fb936283ce00a5bc0df81d3765599dbf907670ffd"
+    },
+    {
+      "path": "lib/arm64-v8a/libmediapipe_tasks_text_jni.so",
+      "sha256": "eff7c89a823f24f948f245c9bfb02e3ce121e48a86146c86fd3ec869f6da5b87"
+    },
+    {
+      "path": "lib/arm64-v8a/libmlkit_google_ocr_pipeline.so",
+      "sha256": "b5d0143bd54b9b7571a2a333fe50b35e4034e25ac99d9f54819da13cfbbc67f2"
+    },
+    {
+      "path": "lib/arm64-v8a/libobjectbox-jni.so",
+      "sha256": "3342ec5e1dd489df76efb26201fce933e096e74396ab295575baa5d37bf9dd00"
+    },
+    {
+      "path": "lib/arm64-v8a/libomp.so",
+      "sha256": "f47f51262ff3540b50e2b8d57c1b230e49a86e1117d3036904a2dfa65769f291"
+    },
+    {
+      "path": "lib/arm64-v8a/libonnxruntime.so",
+      "sha256": "26cc1b284cc22f87a8d4c2c2424b091dce3a00d9d3b74113863405d603f048d3"
+    },
+    {
+      "path": "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "sha256": "fc1298597dc4648160c6a2e83caf01474070314b94af77c0a3ef786f33c6a33b"
+    },
+    {
+      "path": "lib/arm64-v8a/liboperit_loader.so",
+      "sha256": "f149774236db1e69b36cc1e4ed3866c7094db2eee52da0d4956aa63a9bb26929"
+    },
+    {
+      "path": "lib/arm64-v8a/liboperit_proot.so",
+      "sha256": "cb40a1ced11cee76569b4008a9e478c87883ce831152be4eb9570763b82e580d"
+    },
+    {
+      "path": "lib/arm64-v8a/liboperit_ripgrep.so",
+      "sha256": "28ca352145fe740fa48f0a79f1a2802db2648b15f11c513627ace4ff1dab953e"
+    },
+    {
+      "path": "lib/arm64-v8a/libpl_droidsonroids_gif.so",
+      "sha256": "7b81f0e8c4c306ce5cdbc14a8dc35283efa3a19a6432b1902e40c56986a16032"
+    },
+    {
+      "path": "lib/arm64-v8a/libpty.so",
+      "sha256": "7dd87820ce839728c2bd19f2136b95b220d8a53fc6ed2813dc4b6a21693b5cc0"
+    },
+    {
+      "path": "lib/arm64-v8a/libquickjsjni.so",
+      "sha256": "253860eb0712191cde10feaa8d35c042c9af5e1c115dabcdb6c1f90fa03035c1"
+    },
+    {
+      "path": "lib/arm64-v8a/libsherpa-mnn-jni.so",
+      "sha256": "4285a62b38c54ca714076bd69007306408c00509568b893eef3fdbf141cef5bb"
+    },
+    {
+      "path": "lib/arm64-v8a/libsherpa-ncnn-jni.so",
+      "sha256": "8e2596e183190383016cd402bce204a6db0c8241dd31e3ab0d16953fc06cd68e"
+    },
+    {
+      "path": "lib/arm64-v8a/libstreamnative.so",
+      "sha256": "b07443ac3e7b53df8387b696a7b68abb17e405c733559e5810c81b71899f8752"
+    },
+    {
+      "path": "lib/arm64-v8a/libsudo.so",
+      "sha256": "c3b845abdaedebf19beec1e7b9835edb0f825fa316b02035caf86e01a592937b"
+    },
+    {
+      "path": "lib/arm64-v8a/libswresample.so",
+      "sha256": "54b721aaeaa600909790b44a3f561e28f1c57f87ceb2a9f67865caa3aa1f5aca"
+    },
+    {
+      "path": "lib/arm64-v8a/libswscale.so",
+      "sha256": "661f746881c7f9c156eec18b6989d7e8e52eed2e17bf57cf19e0dddc4abb7107"
+    },
+    {
+      "path": "lib/arm64-v8a/libtensorflowlite_jni.so",
+      "sha256": "7cf23bedbda7cca4b242800f619fafb04f397e1091216d62e7faffdc1b1db375"
+    },
+    {
+      "path": "lib/arm64-v8a/libtoolpkgwasm.so",
+      "sha256": "d3ad78c62203fe9df54d9dc7bbbee97189f4ba45503ba7c8c6e76641808073a4"
+    }
+  ]
+}

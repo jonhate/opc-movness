@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": [
+    "unpaired device denied",
+    "desktop approval required",
+    "approved device cookie claimed",
+    "public state excludes credentials",
+    "real session/list and session selection",
+    "lost acceptance response recovered from desktop records after client recreation; prompt sent exactly once",
+    "accepted remains distinct from reply",
+    "real DSH writes an actual file using fixture model protocol",
+    "desktop output returns to phone client",
+    "real workspaceFiles stat/readBytes -> production Java multipart parser -> production local result store; bytes and SHA256 identical",
+    "binary fixture file transfers without UTF-8 decoding",
+    "second real DSH turn reads and edits the original document; new local version published while old version remains intact",
+    "client recreation reuses pairing and selected session",
+    "session cancel request acknowledged and idle verified",
+    "desktop revocation clears local connection",
+    "downloaded results remain available after desktop authorization is revoked"
+  ],
+  "officialDsh": "0.2.2-rc.1",
+  "remotePlugin": "0.2.9",
+  "modelProtocolFixture": true,
+  "modelRequests": 5,
+  "liveModelInference": false,
+  "physicalAndroid": false,
+  "physicalWindows": false,
+  "twentyFourHours": false,
+  "networkAdapterEnumeration": "test-only loopback fixture; sandbox denies OS enumeration",
+  "realLan": false
+}

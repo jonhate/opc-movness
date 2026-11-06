@@ -1,0 +1,5 @@
+warning: [options] bootstrap class path not set in conjunction with -source 8
+1 warning
+PASS native URI validation, secret masking, JPEG QR decoding (11 assertions)
+PASS result store: exact bytes, CRLF, size rejection, no partial publication, path handling, source-aware deduplication, empty/binary files and damage detection
+Built Android DEX bridge; physical-device loading remains a separate acceptance step.

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "android.jar",
+    "source": "https://repo.maven.apache.org/maven2/com/google/android/android/4.1.1.4/android-4.1.1.4.jar",
+    "bytes": 12947757,
+    "sha256": "84072541cbb711eff89f7277100ff854929a446dba7ceb1b195c340e0b4fd3cb"
+  },
+  {
+    "file": "zxing-core.jar",
+    "source": "https://repo.maven.apache.org/maven2/com/google/zxing/core/3.5.3/core-3.5.3.jar",
+    "bytes": 607650,
+    "sha256": "8d8064c1636fdaef7189dd9055c7d59950a8940a12f2293956446ec3c109fd82"
+  },
+  {
+    "file": "security-crypto.aar",
+    "source": "https://dl.google.com/dl/android/maven2/androidx/security/security-crypto/1.1.0-alpha06/security-crypto-1.1.0-alpha06.aar",
+    "bytes": 32306,
+    "sha256": "976111170b3f13d2f0f9457d9f9f579347143cb65c054265906d33c7618a4c2a"
+  },
+  {
+    "file": "r8.jar",
+    "source": "https://dl.google.com/dl/android/maven2/com/android/tools/r8/8.7.18/r8-8.7.18.jar",
+    "bytes": 17650417,
+    "sha256": "58366f77067207c39a17d469de7b05701d2877212a9c55201bcb0af43e59e903"
+  },
+  {
+    "file": "okhttp.jar",
+    "source": "https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar",
+    "bytes": 789531,
+    "sha256": "b1050081b14bb7a3a7e55a4d3ef01b5dcfabc453b4573a4fc019767191d5f4e0"
+  },
+  {
+    "file": "okio.jar",
+    "source": "https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar",
+    "bytes": 359580,
+    "sha256": "67543f0736fc422ae927ed0e504b98bc5e269fda0d3500579337cb713da28412"
+  },
+  {
+    "file": "json.jar",
+    "source": "https://repo.maven.apache.org/maven2/org/json/json/20240303/json-20240303.jar",
+    "bytes": 78332,
+    "sha256": "3cf6cd6892e32e2b4c1c39e0f52f5248a2f5b37646fdfbb79a66b46b618414ed"
+  },
+  {
+    "file": "kotlin-stdlib.jar",
+    "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.24/kotlin-stdlib-1.9.24.jar",
+    "bytes": 1718956,
+    "sha256": "858b902696da9cf585ab9d98ffc1c2712269828354dfe9107e3711b084a36468"
+  }
+]

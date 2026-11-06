@@ -1,0 +1,146 @@
+[
+  {
+    "path": "decoded/smali_classes20/com/ai/assistance/operit/ui/features/movness/MovnessHomeScreenKt.smali",
+    "reason": "Replace the visible shell while preserving the existing method ABI",
+    "before": "f5ea059de981a97f6d813640706964f6f0b288d948e4ee4d4ebea78d3ee8f226",
+    "after": "b3b7d156fb588d273acab5ef91444f7952e6c309855e01c1c4fe69bdcbdc9476"
+  },
+  {
+    "path": "decoded/smali_classes22/com/ai/assistance/operit/ui/main/screens/Screen$AiChat.smali",
+    "reason": "Keep all conversation and incoming-share interactions in AI chat",
+    "before": "10b8fa2a0e053ac2a9634d3e077b6432709a3da4e920e3ba414cfb731e2d6f18",
+    "after": "e1032cb6ce09d63248c6a4e458dd74ecd8625adbc2483b4a1ba475832aeab40b"
+  },
+  {
+    "path": "decoded/smali_classes22/com/ai/assistance/operit/ui/main/screens/Screen$AiChat.smali",
+    "reason": "Replace the visible shell while preserving the existing method ABI",
+    "before": "e1032cb6ce09d63248c6a4e458dd74ecd8625adbc2483b4a1ba475832aeab40b",
+    "after": "55c163db9335172ad0f5372fa2c3737406949a8434532f64f0d5ff97c44e3abb"
+  },
+  {
+    "path": "decoded/smali_classes29/com/ai/assistance/operit/ui/main/MainActivity.smali",
+    "reason": "Replace the visible shell while preserving the existing method ABI",
+    "before": "eed71ee46f8f957c075162a105193a2517b5643956613bd99287cb9ad229e4e4",
+    "after": "da1d112044ad6b7f5cf3e9fde4797338fd6a5924a6b679055cf695efab48ee86"
+  },
+  {
+    "path": "decoded/smali_classes29/com/ai/assistance/operit/ui/main/OperitAppKt.smali",
+    "reason": "Hide role/world-book/developer navigation without deleting its implementation",
+    "before": "82ec8c997dab27dce51d8da1775edea1ce00db26cae6430611204220a3ac4070",
+    "after": "244b8d27a465cdfd39af8bbb57a60c2f7a2689e09fc96e0bea98269056912435"
+  },
+  {
+    "path": "decoded/smali_classes18/com/ai/assistance/operit/ui/main/components/DrawerContentKt.smali",
+    "reason": "Replace the visible shell while preserving the existing method ABI",
+    "before": "e72550e0ed1f1a58b3d9ca622087828be4534edffe2c6d09ef81bb59ecc70807",
+    "after": "315d6ef0234f57c7aa3b8a1abb388be90304e922aa20db6ec9896225548cd57e"
+  },
+  {
+    "path": "decoded/smali_classes18/com/ai/assistance/operit/ui/main/components/DrawerContentKt.smali",
+    "reason": "Replace the visible shell while preserving the existing method ABI",
+    "before": "315d6ef0234f57c7aa3b8a1abb388be90304e922aa20db6ec9896225548cd57e",
+    "after": "c9505931b5cdc1b2cd021a445bf39ae28195938f979804cd7b4a5f28d230c0e8"
+  },
+  {
+    "path": "decoded/smali_classes22/com/ai/assistance/operit/data/preferences/AgreementPreferences.smali",
+    "reason": "Notice version for explicit demonstration recording",
+    "before": "8f0bf658cd7280c889a3df9a0496bd3d778fdbe8643029ca838296b9600d5a6f",
+    "after": "04d22e72fdf21ab4ef57c61fde8e3e60f2133ce0df3add03f2a487820f330dab"
+  },
+  {
+    "path": "decoded/apktool.yml",
+    "reason": "Version 0.5.2 / 50",
+    "before": "37e2faae7a37129ac97f2594e0f023d81954600a886175ccf602b56ee61cb9e5",
+    "after": "d9217b3f91f061c03794a8c3f11a44db9beea7bc8b0c2710e36d7c369705d3a7"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/LearningStore.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "cb8108451adbd06a972c57a9018ddee7390e0ca78720b03055c5c0bf75e37247"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/PhoneActions.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "8f6f1031a14d8207ee3d7859632f19fdba92fefc0aec91ae870dded4633170e3"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/ConversationText.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "b8f1dc192e34a4a260fabc4ae043ed3407a8c82b9fd757cb07b842f8c5237a6b"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/MovnessBridge.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "41975129a4ebcbb7f6329e11531ab0c66ebce32a41b9dcc27378804c42caf479"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/UpstreamBackend.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "92a751a3cedf543d2a1a4494cce377b0b9ee231220e8b537b7f474b4a1888fe8"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/Backend.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "b9eaded73562850a83eeeb0ef9fbee355e55bd394c05116e62a4307d12e10767"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/MovnessView.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "cbff30c38b75f633db1e76daac4380cc2251c564f8dfdeeb0823ed17401d92db"
+  },
+  {
+    "path": "overlay/app/src/main/java/io/movness/ui/LearningService.java",
+    "reason": "Native conversation UI and Android demonstration service",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "0aa5e2b86376f745f8fcfd6c8cfb59b0012e74e73321ec5e77ed342aeae4379f"
+  },
+  {
+    "path": "overlay/app/src/main/java/com/ai/assistance/operit/ui/features/movness/MovnessHomeScreen.kt",
+    "reason": "Reuse the original native composer inside AI chat",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "b6ee18536e454485cf057168267f82b4f852448533bd557ededc7a0982710137"
+  },
+  {
+    "path": "overlay/app/src/main/java/com/ai/assistance/operit/ui/main/screens/OperitScreens.kt",
+    "reason": "Single AI conversation route; DSH route has normal back navigation",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "b40509af51b16ad3399ce4e8e4c8d8206c73ec7a3d82eeb7d201200f3af4a41c"
+  },
+  {
+    "path": "overlay/app/src/main/java/com/ai/assistance/operit/ui/main/MainActivity.kt",
+    "reason": "Hide upstream permission-tier wizard; keep real OS authorization",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "329860d8ff60b54d247bed05b392290bac16d81e1114a9ad7a7e8f1e23cb8826"
+  },
+  {
+    "path": "overlay/app/src/main/java/com/ai/assistance/operit/ui/main/OperitApp.kt",
+    "reason": "Minimal visible navigation",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "82874b3379bbda81b06d4ea6bd8c1894c17cf65cd72bfb39f104ec1e399fba30"
+  },
+  {
+    "path": "overlay/app/src/main/java/com/ai/assistance/operit/ui/main/components/DrawerContent.kt",
+    "reason": "Hide the old persona and workspace panels on phone and tablet",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "9a919205572d57a6ab6c2bdeeafa9eebdfcd1f33cde204662e2a7d9c9f4512b7"
+  },
+  {
+    "path": "overlay/app/src/main/java/com/ai/assistance/operit/data/preferences/AgreementPreferences.kt",
+    "reason": "Updated notice version",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "9957daa31a884d36df636930d6960001f2573d71845e9298ca764da536597191"
+  },
+  {
+    "path": "overlay/app/build.gradle.kts",
+    "reason": "Version 0.5.2 / 50",
+    "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "after": "74880eeead18b00d5d2b84903c048a92979fe2a8f65bc9fa843362508d0940dd"
+  }
+]

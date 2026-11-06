@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ui-android",
+    "url": "https://dl.google.com/dl/android/maven2/androidx/compose/ui/ui-android/1.10.4/ui-android-1.10.4.aar",
+    "sha256": "b860014180d5cabaa0656e9379b1445cf794ed5a8724457d442e816279a2694f",
+    "bytes": 5760687
+  },
+  {
+    "name": "runtime-android",
+    "url": "https://dl.google.com/dl/android/maven2/androidx/compose/runtime/runtime-android/1.10.4/runtime-android-1.10.4.aar",
+    "sha256": "14a0ec47c992112cace7f7c2a93d8bd9b800fe20f71cae18a32ddeff9d86a8a2",
+    "bytes": 2495395
+  },
+  {
+    "name": "foundation-layout-android",
+    "url": "https://dl.google.com/dl/android/maven2/androidx/compose/foundation/foundation-layout-android/1.10.4/foundation-layout-android-1.10.4.aar",
+    "sha256": "dbd371f7d041bfd89c55ce5a5dd6d7c60da9641009d2b3e794dd9b5e4f772881",
+    "bytes": 546455
+  },
+  {
+    "name": "coroutines",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar",
+    "sha256": "5ca175b38df331fd64155b35cd8cae1251fa9ee369709b36d42e0a288ccce3fd",
+    "bytes": 1479317
+  }
+]

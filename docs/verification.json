@@ -1,0 +1,23 @@
+{
+  "artifact": "Movness-r50.apk",
+  "bytes": 396724628,
+  "sha256": "9338aa3548d70e2443b133a90b33238cc3100213aa0026661bdbc7a71b975b25",
+  "package": "io.movness.app.operit.preview",
+  "versionCode": 50,
+  "versionName": "0.5.2",
+  "label": "Movness",
+  "certificate_sha256": "ce3ca43c7ea2752dca11840c2e5a9f5c711da1656e0d805870d824ae5bb0c021",
+  "signature_v2": true,
+  "signature_v3": true,
+  "zip_alignment": true,
+  "zip_crc": true,
+  "existing_resource_ids_preserved": true,
+  "all_original_classes_preserved": true,
+  "unchanged_dex_groups": 40,
+  "host_direct_references_verified": 14,
+  "native_ui_tests": 9,
+  "phone_tool_protocol_fixture_passed": true,
+  "r48_computer_bundle_preserved": true,
+  "physical_device_tested": false,
+  "real_model_and_windows_tested": false
+}

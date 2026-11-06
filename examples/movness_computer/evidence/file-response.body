@@ -1,0 +1,36 @@
+------formdata-undici-058884740484
+Content-Disposition: form-data; name="bytes-0"; filename="blob"
+Content-Type: application/octet-stream
+
+# 校园一小时
+
+**60秒短片 · 分镜与拍摄清单**
+
+把平常的一小时，拍成值得记住的一分钟。
+
+## 分镜
+
+| 时间 | 画面 | 声音与节奏 |
+| --- | --- | --- |
+| 00—06秒 | 教室门被轻轻推开，视线进入空教室 | 保留开门声，音乐由弱变强 |
+| 06—14秒 | 走廊脚步、窗边树影，两个细节切换 | 脚步踩在节拍上 |
+| 14—22秒 | 笔尖落下，纸页翻动，镜头从近景拉远 | 用翻页声衔接下一镜 |
+| 22—34秒 | 图书馆书架间取下一本书，镜头跟随手部动作 | 节奏放缓，保留取书与翻页声 |
+| 34—45秒 | 图书馆窗边，一束光停在书页上 | 音乐短暂留白 |
+| 45—55秒 | 长椅上的背影，抬头望向树梢 | 让环境声重新出现 |
+| 55—60秒 | 回到教室的窗边，出现片名 | 字幕淡入，画面自然结束 |
+
+## 手机拍摄清单
+
+- 开拍前擦净镜头，统一使用横屏。
+- 每个镜头多留2秒，方便电脑剪辑。
+- 先拍空镜，再拍动作；每个动作留一条固定机位备用。
+- 拍完按“教室、走廊、操场、图书馆”归类。
+
+> 协议测试样稿：本文件由真实 DSH 工具写出，生成内容来自本地模型协议夹具，不代表真实模型推理或实机拍摄。
+
+------formdata-undici-058884740484
+Content-Disposition: form-data; name="metadata"
+
+{"type":"server-response","rpcId":"489756e0-3b93-4b01-8cb6-113c931b060f","result":{"ok":true,"value":{"absolutePath":"/workspace/scratch/c58b92ced44b/r48/work/private/case-BkC5wI/fixture-workspace/校园一小时-分镜.md","version":"27:2757571:1270:1793943790909847729:1793943790909847729","bytes":1270,"offset":0,"data":null,"eof":true}},"attachments":[{"path":["data"],"codec":"bytes","part":"bytes-0"}]}
+------formdata-undici-058884740484--

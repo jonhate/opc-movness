@@ -1,0 +1,11 @@
+{
+  "src/io/movness/ui/Backend.java": "b9eaded73562850a83eeeb0ef9fbee355e55bd394c05116e62a4307d12e10767",
+  "src/io/movness/ui/ChatMarkdown.java": "6f742d56176ee4280fb110f7f306df8e4fa3ed0414280b20b44fed25e3f7ec20",
+  "src/io/movness/ui/ConversationText.java": "b8f1dc192e34a4a260fabc4ae043ed3407a8c82b9fd757cb07b842f8c5237a6b",
+  "src/io/movness/ui/LearningService.java": "b09b0cad2b790f7793ee1f7bddccb77da83ca25997a50445ad57beaedb599aaa",
+  "src/io/movness/ui/LearningStore.java": "cb8108451adbd06a972c57a9018ddee7390e0ca78720b03055c5c0bf75e37247",
+  "src/io/movness/ui/MovnessBridge.java": "41975129a4ebcbb7f6329e11531ab0c66ebce32a41b9dcc27378804c42caf479",
+  "src/io/movness/ui/MovnessView.java": "54882c891b7562735cac29f283728f8e0a75b75ba4242a0fc9d8b2f096f46f70",
+  "src/io/movness/ui/PhoneActions.java": "46d6423f155df6b4fda33b7a26a3dad2600048f99ea7809830155559b1053ebd",
+  "src/io/movness/ui/UpstreamBackend.java": "a3c20016acf82b320a21e3594b03a43133f4dea979d4ad43340ddb87e24ebee3"
+}

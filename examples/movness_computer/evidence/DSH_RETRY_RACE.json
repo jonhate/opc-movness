@@ -1,0 +1,14 @@
+{
+  "upstream": "@deepseek-ai/dsh@0.2.2-rc.1",
+  "reproduced": true,
+  "scenario": "Drop first prompt acceptance response, resend same requestId immediately",
+  "observed": {
+    "promptPosts": 2,
+    "sameRequestId": true,
+    "durableUserMessages": 2,
+    "modelProtocolRequests": 3
+  },
+  "mitigation": "Production recovery only reads original admission records; does not resend prompt. Real DSH regression now sends once, writes once, sees two model calls.",
+  "upstreamModified": false,
+  "upstreamIssuePosted": false
+}

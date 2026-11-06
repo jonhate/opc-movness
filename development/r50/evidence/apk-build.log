@@ -1,0 +1,52 @@
+I: Using Apktool 3.0.3 on Movness-r49.apk with 4 threads
+I: classes.dex has not changed.
+I: classes10.dex has not changed.
+I: classes11.dex has not changed.
+I: classes12.dex has not changed.
+I: classes13.dex has not changed.
+I: classes14.dex has not changed.
+I: classes15.dex has not changed.
+I: classes16.dex has not changed.
+I: classes17.dex has not changed.
+I: classes18.dex has not changed.
+I: classes19.dex has not changed.
+I: classes2.dex has not changed.
+I: classes20.dex has not changed.
+I: classes21.dex has not changed.
+I: classes22.dex has not changed.
+I: classes23.dex has not changed.
+I: classes24.dex has not changed.
+I: classes25.dex has not changed.
+I: classes26.dex has not changed.
+I: classes27.dex has not changed.
+I: classes28.dex has not changed.
+I: classes29.dex has not changed.
+I: classes3.dex has not changed.
+I: classes30.dex has not changed.
+I: classes31.dex has not changed.
+I: classes32.dex has not changed.
+I: classes33.dex has not changed.
+I: classes34.dex has not changed.
+I: classes35.dex has not changed.
+I: classes36.dex has not changed.
+I: classes37.dex has not changed.
+I: classes38.dex has not changed.
+I: classes39.dex has not changed.
+I: classes4.dex has not changed.
+I: classes40.dex has not changed.
+I: classes41.dex has not changed.
+I: classes42.dex has not changed.
+I: classes43.dex has not changed.
+I: classes44.dex has not changed.
+I: Copying raw classes45.dex...
+I: classes5.dex has not changed.
+I: classes6.dex has not changed.
+I: classes7.dex has not changed.
+I: classes8.dex has not changed.
+I: classes9.dex has not changed.
+I: AndroidManifest.xml and resources have not changed.
+I: Building apk file...
+I: Importing assets...
+I: Importing lib...
+I: Importing unknown files...
+I: Built apk into: /workspace/scratch/c58b92ced44b/r50-simple/Movness-r50-unsigned.apk

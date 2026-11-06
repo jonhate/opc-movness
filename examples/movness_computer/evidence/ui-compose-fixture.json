@@ -1,0 +1,448 @@
+{
+  "meaning": "Actual production Compose DSL output; deterministic bridge fixture, not a physical-phone render.",
+  "physicalAndroid": false,
+  "results": {
+    "type": "LazyColumn",
+    "props": {
+      "key": "movness-computer-connect",
+      "fillMaxSize": true,
+      "padding": 24,
+      "spacing": 16,
+      "onLoad": "[callback]"
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "text": "电脑",
+          "style": "headlineMedium"
+        },
+        "children": []
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "成果",
+          "style": "titleLarge"
+        },
+        "children": []
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "已经带回手机，离线也能查看。",
+          "style": "bodySmall"
+        },
+        "children": []
+      },
+      {
+        "type": "Card",
+        "props": {
+          "fillMaxWidth": true,
+          "shape": {
+            "type": "rounded",
+            "cornerRadius": 22
+          },
+          "elevation": 0
+        },
+        "children": [
+          {
+            "type": "Column",
+            "props": {
+              "padding": 20,
+              "spacing": 8
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "text": "校园一小时-分镜.md",
+                  "style": "titleMedium",
+                  "maxLines": 2
+                },
+                "children": []
+              },
+              {
+                "type": "Text",
+                "props": {
+                  "text": "2 KB · 最近保存",
+                  "style": "bodySmall"
+                },
+                "children": []
+              },
+              {
+                "type": "Row",
+                "props": {
+                  "spacing": 12
+                },
+                "children": [
+                  {
+                    "type": "TextButton",
+                    "props": {
+                      "onClick": "[callback]"
+                    },
+                    "children": [
+                      {
+                        "type": "Text",
+                        "props": {
+                          "text": "预览"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "TextButton",
+                    "props": {
+                      "onClick": "[callback]"
+                    },
+                    "children": [
+                      {
+                        "type": "Text",
+                        "props": {
+                          "text": "分享"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Card",
+        "props": {
+          "fillMaxWidth": true,
+          "shape": {
+            "type": "rounded",
+            "cornerRadius": 22
+          },
+          "elevation": 0
+        },
+        "children": [
+          {
+            "type": "Column",
+            "props": {
+              "padding": 20,
+              "spacing": 8
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "text": "校园一小时-分镜.md",
+                  "style": "titleMedium",
+                  "maxLines": 2
+                },
+                "children": []
+              },
+              {
+                "type": "Text",
+                "props": {
+                  "text": "2 KB · 历史版本",
+                  "style": "bodySmall"
+                },
+                "children": []
+              },
+              {
+                "type": "Row",
+                "props": {
+                  "spacing": 12
+                },
+                "children": [
+                  {
+                    "type": "TextButton",
+                    "props": {
+                      "onClick": "[callback]"
+                    },
+                    "children": [
+                      {
+                        "type": "Text",
+                        "props": {
+                          "text": "预览"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "TextButton",
+                    "props": {
+                      "onClick": "[callback]"
+                    },
+                    "children": [
+                      {
+                        "type": "Text",
+                        "props": {
+                          "text": "分享"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "已准备好协作",
+          "style": "titleMedium"
+        },
+        "children": []
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "选择后，Movness 可在这项会话中自动发起常规任务。",
+          "style": "bodySmall"
+        },
+        "children": []
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "校园短片",
+          "style": "bodyMedium"
+        },
+        "children": []
+      },
+      {
+        "type": "TextButton",
+        "props": {
+          "onClick": "[callback]"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "props": {
+              "text": "选择会话与授权"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "回到 Movness 首页，直接说出你的目标。",
+          "style": "bodyMedium"
+        },
+        "children": []
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "电脑回复已到达",
+          "style": "titleMedium"
+        },
+        "children": []
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "电脑已连接",
+          "style": "bodySmall"
+        },
+        "children": []
+      },
+      {
+        "type": "TextButton",
+        "props": {
+          "enabled": true,
+          "onClick": "[callback]"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "props": {
+              "text": "检查连接"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "TextButton",
+        "props": {
+          "onClick": "[callback]"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "props": {
+              "text": "移除本机连接"
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preview": {
+    "type": "LazyColumn",
+    "props": {
+      "key": "movness-result-preview",
+      "fillMaxSize": true,
+      "padding": 24,
+      "spacing": 18
+    },
+    "children": [
+      {
+        "type": "TextButton",
+        "props": {
+          "onClick": "[callback]"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "props": {
+              "text": "返回成果"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "校园一小时-分镜.md",
+          "style": "headlineSmall"
+        },
+        "children": []
+      },
+      {
+        "type": "Row",
+        "props": {
+          "spacing": 12
+        },
+        "children": [
+          {
+            "type": "TextButton",
+            "props": {
+              "onClick": "[callback]"
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "text": "其他应用打开"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "TextButton",
+            "props": {
+              "onClick": "[callback]"
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "text": "分享"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Markdown",
+        "props": {
+          "text": "# 校园一小时\n\n**60秒短片 · 分镜与拍摄清单**\n\n把平常的一小时，拍成值得记住的一分钟。\n\n## 分镜\n\n| 时间 | 画面 | 声音与节奏 |\n| --- | --- | --- |\n| 00—06秒 | 教室门被轻轻推开，视线进入空教室 | 保留开门声，音乐由弱变强 |\n| 06—14秒 | 走廊脚步、窗边树影，两个细节切换 | 脚步踩在节拍上 |\n| 14—22秒 | 笔尖落下，纸页翻动，镜头从近景拉远 | 用翻页声衔接下一镜 |\n| 22—34秒 | 图书馆书架间取下一本书，镜头跟随手部动作 | 节奏放缓，保留取书与翻页声 |\n| 34—45秒 | 图书馆窗边，一束光停在书页上 | 音乐短暂留白 |\n| 45—55秒 | 长椅上的背影，抬头望向树梢 | 让环境声重新出现 |\n| 55—60秒 | 回到教室的窗边，出现片名 | 字幕淡入，画面自然结束 |\n\n## 手机拍摄清单\n\n- 开拍前擦净镜头，统一使用横屏。\n- 每个镜头多留2秒，方便电脑剪辑。\n- 先拍空镜，再拍动作；每个动作留一条固定机位备用。\n- 拍完按“教室、走廊、操场、图书馆”归类。\n\n> 协议测试样稿：本文件由真实 DSH 工具写出，生成内容来自本地模型协议夹具，不代表真实模型推理或实机拍摄。\n",
+          "enableDialogs": false
+        },
+        "children": []
+      }
+    ]
+  },
+  "olderPreview": {
+    "type": "LazyColumn",
+    "props": {
+      "key": "movness-result-preview",
+      "fillMaxSize": true,
+      "padding": 24,
+      "spacing": 18
+    },
+    "children": [
+      {
+        "type": "TextButton",
+        "props": {
+          "onClick": "[callback]"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "props": {
+              "text": "返回成果"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "校园一小时-分镜.md",
+          "style": "headlineSmall"
+        },
+        "children": []
+      },
+      {
+        "type": "Row",
+        "props": {
+          "spacing": 12
+        },
+        "children": [
+          {
+            "type": "TextButton",
+            "props": {
+              "onClick": "[callback]"
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "text": "其他应用打开"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "TextButton",
+            "props": {
+              "onClick": "[callback]"
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "text": "分享"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Markdown",
+        "props": {
+          "text": "# 校园一小时\n\n**60秒短片 · 分镜与拍摄清单**\n\n把平常的一小时，拍成值得记住的一分钟。\n\n## 分镜\n\n| 时间 | 画面 | 声音与节奏 |\n| --- | --- | --- |\n| 00—06秒 | 教室门被轻轻推开，视线进入空教室 | 保留开门声，音乐由弱变强 |\n| 06—14秒 | 走廊脚步、窗边树影，两个细节切换 | 脚步踩在节拍上 |\n| 14—22秒 | 笔尖落下，纸页翻动，镜头从近景拉远 | 用翻页声衔接下一镜 |\n| 22—34秒 | 操场上并肩跑过，镜头低机位跟随 | 节奏加快，保留呼吸声 |\n| 34—45秒 | 图书馆窗边，一束光停在书页上 | 音乐短暂留白 |\n| 45—55秒 | 长椅上的背影，抬头望向树梢 | 让环境声重新出现 |\n| 55—60秒 | 回到教室的窗边，出现片名 | 字幕淡入，画面自然结束 |\n\n## 手机拍摄清单\n\n- 开拍前擦净镜头，统一使用横屏。\n- 每个镜头多留2秒，方便电脑剪辑。\n- 先拍空镜，再拍动作；每个动作留一条固定机位备用。\n- 拍完按“教室、走廊、操场、图书馆”归类。\n\n> 协议测试样稿：本文件由真实 DSH 工具写出，生成内容来自本地模型协议夹具，不代表真实模型推理或实机拍摄。\n",
+          "enableDialogs": false
+        },
+        "children": []
+      }
+    ]
+  }
+}

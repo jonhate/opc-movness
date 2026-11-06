@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "io.movness.computer",
+  "version": "0.2.0",
+  "api_version": "1.0.0",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "Movness 电脑协作",
+    "en": "Movness Computer"
+  },
+  "description": {
+    "zh": "扫码连接已有 DSH，由 Movness 直接委托电脑工作并获取结果。",
+    "en": "Pair with DSH and delegate work from Movness."
+  },
+  "enabled_by_default": true,
+  "subpackages": [
+    {
+      "id": "movness_computer",
+      "entry": "dist/packages/computer.js",
+      "enabled_by_default": true
+    }
+  ],
+  "resources": [
+    {
+      "key": "android_bridge",
+      "path": "resources/android-bridge.jar",
+      "mime": "application/java-archive"
+    }
+  ]
+}

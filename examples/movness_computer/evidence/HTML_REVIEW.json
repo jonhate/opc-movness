@@ -1,0 +1,8 @@
+{
+  "htmlScriptSyntaxAndTransitions": true,
+  "latestAndHistoricalDocumentsSeparate": true,
+  "staticRenderReviewedWith": "WeasyPrint + Poppler",
+  "productionComposeDslFixture": true,
+  "physicalAndroid": false,
+  "browserPixelVerification": false
+}

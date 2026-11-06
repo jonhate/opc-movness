@@ -1,0 +1,24 @@
+✔ accepted is not completion; empty output is not a successful reply (10.363548ms)
+✔ response loss persists the original identity and prevents an unrelated submission (7.446459ms)
+✔ waiting for desktop approval is actionable, not completion (2.07548ms)
+✔ cancellation is pending until the desktop actually becomes idle (2.941666ms)
+✔ ordinary permission denial retains pairing; revocation clears it (1.264247ms)
+✔ unrelated RPC response cannot be mistaken for success (1.095552ms)
+✔ server diagnostics and secrets do not escape into the model error (1.06756ms)
+✔ switching sessions cannot discard an active task (2.421751ms)
+{"checks":["unpaired device denied","desktop approval required","approved device cookie claimed","public state excludes credentials","real session/list and session selection","lost acceptance response recovered from desktop records after client recreation; prompt sent exactly once","accepted remains distinct from reply","real DSH writes an actual file using fixture model protocol","desktop output returns to phone client","real workspaceFiles stat/readBytes -> production Java multipart parser -> production local result store; bytes and SHA256 identical","binary fixture file transfers without UTF-8 decoding","second real DSH turn reads and edits the original document; new local version published while old version remains intact","client recreation reuses pairing and selected session","session cancel request acknowledged and idle verified","desktop revocation clears local connection","downloaded results remain available after desktop authorization is revoked"],"modelRequests":5}
+✔ real DSH remote pairing, task, file output, persisted identity and revocation (3861.903546ms)
+✔ file changing between stat and retrieval is not published as a saved result (11.329904ms)
+✔ oversized file is rejected before any content is requested (1.473252ms)
+✔ removing the connection during download prevents result publication (2.97089ms)
+✔ project-relative file paths reject URLs, absolute paths and parent traversal (0.591792ms)
+✔ a local save failure cannot be reported as saved_to_phone (2.584137ms)
+✔ registered native results open Markdown preview, share through FileProvider, and return to results (27.845038ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5980.155023

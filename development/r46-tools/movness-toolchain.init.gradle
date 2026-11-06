@@ -1,0 +1,25 @@
+// Match the NDK version explicitly required by Operit's own CI/build guide.
+// Pin all Android modules instead of silently taking AGP's newer default.
+gradle.beforeProject { target ->
+    ["com.android.application", "com.android.library"].each { id ->
+        target.plugins.withId(id) {
+            target.extensions.getByName("android").ndkVersion = "25.1.8937393"
+        }
+    }
+}
+allprojects {
+    tasks.withType(Test).configureEach {
+        maxHeapSize = '1800m'
+        doFirst {
+            def agent = classpath.files.find { it.name.startsWith('byte-buddy-agent-') }
+            if (agent == null) throw new GradleException('Byte Buddy test agent missing')
+            jvmArgs '-javaagent:' + agent.absolutePath
+        }
+        systemProperty 'robolectric.dependency.repo.url', 'https://repo.maven.apache.org/maven2'
+        systemProperty 'movness.capture', new File(rootProject.projectDir, '../evidence').absolutePath
+        ['http.proxyHost', 'http.proxyPort', 'https.proxyHost', 'https.proxyPort',
+         'http.nonProxyHosts', 'javax.net.ssl.trustStore'].each { name ->
+            if (System.getProperty(name) != null) systemProperty name, System.getProperty(name)
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "bytes": 1246,
+  "hostSha256": "7e2c1bcdedcd707939f00177418f13e88a70e7db66b41ef78ae66bc5ddafd94d",
+  "localSha256": "7e2c1bcdedcd707939f00177418f13e88a70e7db66b41ef78ae66bc5ddafd94d",
+  "productionJavaParser": true,
+  "productionJavaResultStore": true,
+  "nativePreviewTextMatches": true,
+  "binarySeedTransfer": true,
+  "physicalAndroid": false,
+  "meaning": "Java production helper tested on a JVM; Android Context and actual share intents are not exercised."
+}

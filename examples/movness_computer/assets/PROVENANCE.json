@@ -1,0 +1,11 @@
+{
+  "previewFont": "Movness Preview Sans",
+  "derivedFrom": "NotoSansCJKsc-Regular.otf",
+  "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "sourceSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "license": "SIL OFL 1.1; see licenses/preview-font-OFL.txt",
+  "modified": true,
+  "modification": "WOFF2 subset for the review artifact; renamed internal family to Movness Preview Sans",
+  "subsetSha256": "187335b6ec4e9b4edaacc6ef5936d25b8bad00231eff001d1770dfd35ec78ccd",
+  "phoneRuntimeFontChanged": false
+}

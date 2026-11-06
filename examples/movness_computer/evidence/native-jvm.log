@@ -1,0 +1,3 @@
+PASS native URI validation, secret masking, JPEG QR decoding (11 assertions)
+PASS result store: exact bytes, CRLF, size rejection, no partial publication, path handling, source-aware deduplication, empty/binary files and damage detection
+Android Bitmap/Keystore/callback bridge and real phone intents not exercised.

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "io.movness.phone",
+  "version": "0.1.0",
+  "api_version": "1.0.0",
+  "main": "main.js",
+  "display_name": {
+    "zh": "Movness 手机行动",
+    "en": "Movness Phone"
+  },
+  "description": {
+    "zh": "手机界面操作和可复用示范。",
+    "en": "Phone actions and reusable demonstrations."
+  },
+  "enabled_by_default": true,
+  "subpackages": [
+    {
+      "id": "movness_phone",
+      "entry": "phone.js",
+      "enabled_by_default": true
+    }
+  ]
+}

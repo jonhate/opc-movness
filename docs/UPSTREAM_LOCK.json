@@ -1,0 +1,56 @@
+{
+  "upstream_repository": "https://github.com/AAswordman/Operit",
+  "upstream_commit": "783ee301da88eaf197fb9f05ed3b70a607bf7408",
+  "source_archive_sha256": "d1ebd6ce98f459d59c14066f1f21b256ab7ad41f6da89c9c913791ca5025d1c1",
+  "terminal_repository": "https://github.com/AAswordman/OperitTerminalCore",
+  "terminal_commit": "045868988e4091d613cb34b2941057703899b96e",
+  "manual_dependencies": [
+    {
+      "file": "jniLibs.zip",
+      "bytes": 2350153,
+      "sha256": "2e8a4efd78b4b9daf3274ee17ba38eb5f42fb57bf43381b63c55aaa1d3148b53"
+    },
+    {
+      "file": "libs.zip",
+      "bytes": 15222473,
+      "sha256": "1625489c81bb6e3ec6d29d41c39a53cb985e997be474425be01f909a6df887f8"
+    },
+    {
+      "file": "subpack.zip",
+      "bytes": 35269539,
+      "sha256": "2953448c93b0e4e51a6434b96b0145af271efdf07bf99a54b24925727c8545ae"
+    }
+  ],
+  "terminal_archive_sha256": "a30cb8b61d485c5bd8f99bd5c26e9e50b887f98c3aafa0d7da01fe9b6639b971",
+  "toolchain": {
+    "jdk": "21",
+    "gradle": "8.13",
+    "android_compile_sdk": 36,
+    "android_build_tools": "35.0.0",
+    "ndk": "25.1.8937393",
+    "cmake": "3.22.1",
+    "abi": [
+      "arm64-v8a"
+    ]
+  },
+  "distribution": {
+    "application_id": "io.movness.app.operit.preview",
+    "version_code": 46,
+    "version_name": "0.5.0-operit-preview",
+    "existing_r45_replaced": false
+  },
+  "observed_native_source_commits": {
+    "quickjs": "712e8c0ca26949477c38f91dbaf955cc48e2f261",
+    "wamr": "3a6fb9a8e7871f20471c48592390b9d2342287b1",
+    "ncnn": "09981a0796cc0dd629ed5ba0f8d55653cc1406a5",
+    "sherpa_ncnn": "c61e50d61e9fbed5972afa4d95bc560e168affe2",
+    "mnn": "d407447ed56c4121a11ccbd266dc184ca1ead0c2",
+    "kleidiai": "fa0a8e861d58451e0a3a0d1588bc0d49bad23743",
+    "llama_cpp": "720d7fa4097f76e5d0eade5a92c1df87c1faf9d9",
+    "dragonbones_cpp": "f696143045e07b7c4c4590bdd95534e9e8074b37",
+    "ufbx": "5955c5c0b042ac2dc6f32955ab206aaec0620cfc",
+    "bullet3": "d3afe76132fc76b0f9b2359cbaef47a3766e7fbb",
+    "saba": "29b8efa8b31c8e746f9a88020fb0ad9dcdcf3332"
+  },
+  "native_ref_note": "These are observed build inputs. Upstream CMake also contains moving branch defaults; preserve these commits in future builds rather than silently resolving a newer branch."
+}

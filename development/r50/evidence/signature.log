@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Movness Preview, O=Development, C=CN
+Signer #1 certificate SHA-256 digest: ce3ca43c7ea2752dca11840c2e5a9f5c711da1656e0d805870d824ae5bb0c021
+Signer #1 certificate SHA-1 digest: 9d249d984b7ce7f22b86a6ad8ae9f6f5ac6dc6ea
+Signer #1 certificate MD5 digest: 40b13ffb6b33d94e963421315a9bb7e1
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: c155b1d5ab1558475b9510be8a5bc5a33cc4e309bcf96b28f35574ef34712cac
+Signer #1 public key SHA-1 digest: ea9646e4ceb95f726017b45f91f1128ddf7113bf
+Signer #1 public key MD5 digest: 0f13a8e5974e77556ccbef0031d80fab
