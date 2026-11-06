@@ -10,7 +10,7 @@
 
 ## 精确恢复已发布 APK
 
-下载 r50 Release 中的 `Movness_r50_source_and_handoff.zip` 并校验 SHA256。该原始交接包包含：
+下载 r50 Release 中的 `Movness_r50_source_and_handoff.zip` 并校验 SHA256。该公开交接包包含：
 
 - r46 固定上游、终端源码、恢复脚本与手工依赖归档；
 - r48 电脑工具源码与证据；

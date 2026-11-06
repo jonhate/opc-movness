@@ -1,14 +1,19 @@
 {
   "release": "r50",
   "date": "2026-11-06",
+  "source_publication": "Two upstream signing-template files removed; nested source manifests refreshed. APK unchanged.",
   "files": {
     "Movness_r50_source_and_handoff.zip": {
-      "bytes": 255065665,
-      "sha256": "f817055a8e099e61d6dcc11fd2e54f16718c095c828aa8e4b50e65446c2cb612"
+      "bytes": 255277064,
+      "sha256": "3296295a4a9c503a880488b94140c075e51b42ea44126d078f34f170d56781f9"
     },
     "Movness-r50.apk": {
       "bytes": 396724628,
       "sha256": "9338aa3548d70e2443b133a90b33238cc3100213aa0026661bdbc7a71b975b25"
+    },
+    "Movness_r50_handoff.md": {
+      "bytes": 7112,
+      "sha256": "72f7cb89f69f19d07e7346757a0fb82a2c257b617a97285cfcb5fd6d468763e9"
     }
   }
 }
